@@ -34,3 +34,10 @@ export default function Scene3D() {
     </div>
   );
 }
+/* index.css */
+.canvas-container {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  z-index: -1;
+}
